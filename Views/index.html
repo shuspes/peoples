@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta http-equiv="content-type" content="text/html; charset=UTF-8">
+        <title>Peoples</title>
+
+        <script type='text/javascript' src='../Libs/jquery-3.1.1.js'></script>
+        <script type='text/javascript' src='../Libs/bootstrap.js'></script>
+
+        <script type='text/javascript' src='../Scripts/Data/peoples.js'></script>
+        <script type='text/javascript' src='../Scripts/Data/companies.js'></script>
+        <script type='text/javascript' src='../Scripts/Peoples/table.js'></script>
+        <script type='text/javascript' src='../Scripts/Templates/table.js'></script>
+        <script type='text/javascript' src='../Scripts/Utils/sorters.js'></script>
+
+        <link rel="stylesheet" type="text/css" href="../Libs/bootstrap.css">
+        <link rel="stylesheet" type="text/css" href="../Styles/Peoples/table.css">
+
+        <script>
+        $(document).ready(function () {
+            createTables();
+        });
+        </script>
+    </head>
+
+    <body>
+        <div class="js-peoples-table css-peoples-table css-table"></div>
+
+        <div class="js-companies-table css-company-table css-table"></div>
+
+    </body>
+</html>
